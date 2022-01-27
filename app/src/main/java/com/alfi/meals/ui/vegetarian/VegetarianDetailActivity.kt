@@ -17,8 +17,8 @@ class VegetarianDetailActivity : AppCompatActivity() {
     private val binding by lazy { ActivityVegetarianDetailBinding.inflate(layoutInflater) }
 
     companion object {
-        const val EXTRA_VEGETARIAN = "extra_vegetarian"
         const val EXTRA_ID = "vegetarian_id"
+        const val EXTRA_VEGETARIAN = "extra_vegetarian"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

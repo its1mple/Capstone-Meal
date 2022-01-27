@@ -17,8 +17,8 @@ class SeafoodDetailActivity : AppCompatActivity() {
     private val binding by lazy { ActivitySeafoodDetailBinding.inflate(layoutInflater) }
 
     companion object {
-        const val EXTRA_SEAFOOD = "extra_seafood"
         const val EXTRA_ID = "seafood_Id"
+        const val EXTRA_SEAFOOD = "extra_seafood"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
