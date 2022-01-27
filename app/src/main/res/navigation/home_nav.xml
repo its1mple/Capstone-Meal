@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/seafood_navigation">
+
+    <fragment
+        android:id="@+id/seafood_navigation"
+        android:name="com.alfi.meals.ui.seafood.SeafoodFragment"
+        android:label="@string/seafood"
+        tools:layout="@layout/fragment_seafood" />
+
+    <fragment
+        android:id="@+id/vegetarian_navigation"
+        android:name="com.alfi.meals.ui.vegetarian.VegetarianFragment"
+        android:label="@string/vegetarian"
+        tools:layout="@layout/fragment_vegetarian" />
+
+    <fragment
+        android:id="@+id/favorite_navigation"
+        android:name="com.alfi.meals.favorite.FavoriteFragment"
+        android:label="@string/favorite"
+        app:moduleName="Meals.favorite"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/favoriteSeafoodFragment"
+        android:name="com.alfi.meals.favorite.FavoriteSeafoodFragment"
+        android:label="fragment_favorite_seafood"
+        app:moduleName="Meals.favorite"
+        tools:layout="@layout/fragment_favorite_seafood" />
+
+    <fragment
+        android:id="@+id/favoriteVegetarianFragment"
+        android:name="com.alfi.meals.favorite.FavoriteVegetarianFragment"
+        android:label="fragment_favorite_vegetarian"
+        app:moduleName="Meals.favorite"
+        tools:layout="@layout/fragment_favorite_vegetarian" />
+</navigation>

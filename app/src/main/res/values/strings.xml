@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Meals</string>
+    <string name="title_favorite">favorite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_to_make">How to make ?</string>
+    <string name="name_food">Name Food :</string>
+    <string name="type_food">Type Food :</string>
+    <string name="country_food">Country Food :</string>
+    <string name="label_indonesian">Indonesian</string>
+    <string name="label_seafood">Seafood</string>
+    <string name="label_lobster">Seafood Lobster</string>
+    <string name="dummy_recipe">In a wok add chicken broth and wait for it to boil.r\nNext add salt, sugar, white pepper, sesame seed oil.r\nWhen the chicken broth is boiling add the vegetables to the wok.r\nTo thicken the sauce, whisk together 1 Tablespoon of cornstarch and 2 Tablespoon of water in a bowl and slowly add to your soup until it\'s the right thickness.r\nNext add 1 egg slightly beaten with a knife or fork and add it to the soup slowly and stir for 8 secondsr\nServe the soup in a bowl and add the green onions on top.</string>
+    <string name="seafood">Seafood</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="favorite">Favorite</string>
+    <string name="terjadi_kesalahan">Terjadi kesalahan saat memuat data</string>
+    <string name="button_favorite">Button Favorite</string>
+    <string name="remove_favorite">Removed from Favorite</string>
+    <string name="added_favorite">Added to Favorite</string>
+    <string name="detail_meal">Detail Meal</string>
+    <string name="detail">Detail</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/seafood_navigation"
+        android:icon="@drawable/seafood"
+        android:title="@string/seafood" />
+
+    <item
+        android:id="@+id/favorite_navigation"
+        android:icon="@drawable/favorite_enable"
+        android:title="@string/favorite" />
+
+    <item
+        android:id="@+id/vegetarian_navigation"
+        android:icon="@drawable/vegetarian"
+        android:title="@string/vegetarian" />
+
+</menu>
